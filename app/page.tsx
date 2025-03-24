@@ -10,7 +10,13 @@ export default function Home() {
               adalah solusi untuk menyimpan dan membagikan momen-momen berharga
               Anda dengan mudah dan praktis.
             </p>
-            <button className='btn btn-primary'>Pesan Sekarang</button>
+            <a
+              className='btn btn-primary'
+              href='https://id.shp.ee/tvuRgVe'
+              target='_blank'
+            >
+              Pesan Sekarang
+            </a>
           </div>
         </div>
       </div>

@@ -44,3 +44,7 @@
 // });
 
 // export { handler as GET, handler as POST };
+
+export async function GET() {
+  return new Response("Hello, Next.js!");
+}

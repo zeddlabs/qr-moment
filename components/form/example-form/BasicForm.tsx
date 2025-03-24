@@ -11,23 +11,23 @@ export default function BasicForm() {
     console.log("Form submitted:");
   };
   return (
-    <ComponentCard title="Basic Form">
+    <ComponentCard title='Basic Form'>
       <Form onSubmit={handleSubmit}>
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
+        <div className='grid grid-cols-1 gap-6 sm:grid-cols-2'>
           <div>
-            <Input type="text" placeholder="Name" />
+            <Input type='text' placeholder='Name' />
           </div>
           <div>
-            <Input type="text" placeholder="Email address" />
+            <Input type='text' placeholder='Email address' />
           </div>
-          <div className="col-span-full">
-            <Input type="text" placeholder="Password" />
+          <div className='col-span-full'>
+            <Input type='text' placeholder='Password' />
           </div>
-          <div className="col-span-full">
-            <Input type="text" placeholder="Confirm Password" />
+          <div className='col-span-full'>
+            <Input type='text' placeholder='Confirm Password' />
           </div>
-          <div className="col-span-full">
-            <Button className="w-full" size="sm">
+          <div className='col-span-full'>
+            <Button className='w-full' size='sm'>
               Submit
             </Button>
           </div>
